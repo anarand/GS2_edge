@@ -49,4 +49,7 @@ O sensor mede a distância entre ele e a superfície da água. Quanto menor a di
 | 30 – 50 cm          | 🟡 Atenção        |
 | < 30 cm             | 🔴 Risco de enchente |
 
+<br>
+
+###link simulação no wokwi: https://wokwi.com/projects/432249083083881473
 

@@ -4,7 +4,7 @@
 
 Durante chuvas fortes, é comum que estações de metrô e trem enfrentem alagamentos. Isso pode colocar em risco a segurança dos passageiros, além de causar atrasos e danos na estrutura das estações. O projeto propõe um sistema de detecção de enchentes com ESP32 e sensor ultrassônico, que monitora o nível de água em tempo real. As informações são enviadas via MQTT (Mosquitto) para um dashboard no Node-RED, que exibe alertas visuais sobre o risco de alagamento. Dessa forma, é possível agir rapidamente para evitar problemas maiores e garantir a segurança dos passageiros.
 
-
+<br>
 
 ## Arquitetura da Solução
 
@@ -23,7 +23,7 @@ A arquitetura do sistema está dividida em três camadas principais:
 - **Plataforma:** Node-RED
 - **Dashboard:** Interface web que recebe os dados, interpreta e exibe alertas visuais com emojis e mensagens.
 
-
+<br>
 
 ## Componentes Utilizados
 
@@ -33,7 +33,7 @@ A arquitetura do sistema está dividida em três camadas principais:
 - **Node-RED com Dashboard**
 - **Simulador Wokwi** 
 
-
+<br>
 
 ## Funcionamento
 

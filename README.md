@@ -52,5 +52,64 @@ O sensor mede a distância entre ele e a superfície da água. Quanto menor a di
 
 <br>
 
-### link simulação no wokwi: https://wokwi.com/projects/432249083083881473
+## 🚀 Como Executar o Projeto
+
+### 1. 🔧 Requisitos
+
+- Node.js instalado
+- Node-RED instalado
+- Mosquitto (Broker MQTT) instalado
+- Wokwi
+
+---
+
+### 2. 💻 Instalar Node-RED
+
+No terminal:
+
+```bash
+npm install -g --unsafe-perm node-red
+```
+
+Iniciar com:
+
+```bash
+node-red
+```
+
+Acesse: [http://localhost:1880](http://localhost:1880)
+
+---
+
+### 3. 📡 Instalar e Executar o Mosquitto
+
+
+
+```bash
+choco install mosquitto
+```
+
+Inicie o broker:
+
+```bash
+mosquitto
+```
+
+---
+
+### 4. 🧩 Importar o Fluxo do Node-RED
+
+1. Acesse `http://localhost:1880`
+2. Menu (☰) > Import
+3. Cole o conteúdo de `flows.json` que está no repositório
+4. Clique em **Deploy**
+
+
+### 5. 📊 Rodar Wokwi e acompanhar no Dashboard
+Após executar no Wokwi, acesse:
+
+```
+http://localhost:1880/ui
+```
+
 

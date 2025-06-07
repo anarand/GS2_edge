@@ -112,4 +112,6 @@ Após executar no Wokwi, acesse:
 http://localhost:1880/ui
 ```
 
+link wokwi: https://wokwi.com/projects/432249083083881473
+
 
